@@ -78,7 +78,6 @@ impl Solution {
 	// 原地置换法
 	// 经典解法，就是遍历一下，然后判断索引 i 和对应的 nums[i] 是不是一致的，如果不是的话，就把 nums[i] 放到索引是 nums[i] 的地方去
 	// 这样就形成了 [0, 1, 2, ...] 这样索引和对应的值相等的排列，再遇到不一致的，判断出对应索引位置上已经有值了，那就是重复了
-
 	// 耗时 4ms，内存 3.1m
 	pub fn find_repeat_number_replace(mut nums: Vec<i32>) -> i32 {
 		for i in 0..nums.len() {
