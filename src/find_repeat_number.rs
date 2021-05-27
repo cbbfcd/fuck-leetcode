@@ -13,7 +13,7 @@ use std::collections::HashSet;
 
 impl Solution {
 
-	// 都没有写一个判断， if nums.len() <= 1 的情况，这种 edge case 还是很有必要的 
+	// 注意：都没有写一个判断， if nums.len() <= 1 的情况，这种 edge case 还是很有必要的 
   // 利用 HashMap，复杂度 O(n)
 	// 用时 8ms 内存 5.1m
   pub fn find_repeat_number(nums: Vec<i32>) -> i32 {
