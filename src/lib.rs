@@ -5,3 +5,4 @@ pub mod find_repeat_number;
 pub mod find_number_in2_d_array;
 pub mod replace_space;
 pub mod reverse_print;
+pub mod preorder_traversal;
