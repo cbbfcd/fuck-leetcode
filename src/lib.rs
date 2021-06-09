@@ -7,3 +7,4 @@ pub mod replace_space;
 pub mod reverse_print;
 pub mod preorder_traversal;
 pub mod inorder_traversal;
+pub mod postorder_traversal;
