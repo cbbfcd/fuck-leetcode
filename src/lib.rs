@@ -8,3 +8,4 @@ pub mod reverse_print;
 pub mod preorder_traversal;
 pub mod inorder_traversal;
 pub mod postorder_traversal;
+pub mod two_stack_2_queue;
